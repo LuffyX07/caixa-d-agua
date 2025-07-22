@@ -1,0 +1,173 @@
+body {
+  background-color: #efefef;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.caixa-info {
+    position: absolute;
+    width: 95%;
+    top: 2%;
+    height: 95%;
+    background-color: white;
+    border: 1px solid #555;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+.barra-superior {
+  background-color: #1f7ae0;
+  position: absolute;
+  top: 0%;
+  padding:20px;
+  width: 100%;
+  left: 0%;
+  text-align: center;
+}
+
+.titulo {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.titulo-2 {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  height: 30%;
+  width: 40%;
+  margin: 0;
+  top: 15%;
+  left: 7%;
+  border: 2px solid rgba(146, 143, 143, 0.301);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 7%;
+}
+
+.titulo-2 div .nivel-agua {
+  font-size: 155%;
+  font-weight: 600;
+  margin-top: 7%;
+  margin-right: 7%;
+}
+
+.titulo-2 .caixa-agua{
+  height: 65%;
+  margin-top: 7%;
+  margin-right: 7%;
+}
+
+.verificar {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin: 0;
+  left: 55%;
+  top: 15%;
+  border: 2px solid rgba(146, 143, 143, 0.301);
+  border-radius: 10px;
+  height: 30%;
+  width: 40%;
+  text-align: center;
+
+}
+
+.verificar h2 {
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.verificar .barra-verde {
+  background-color: #bb0d0d;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0px;
+  width: 30%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+.verificar .buttons{
+  margin-top: 17%;
+  width: 70%;
+  height: 30%;
+  margin-left: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verificar .buttons .ligar{
+  margin-left: 17%;
+  scale: 1.5;
+  border-radius: 7px;
+  border: 1px solid black;
+  transition: ease 1s;
+  cursor: pointer;
+
+}
+
+.verificar .buttons .ligar:hover{
+  background-color: rgba(30, 189, 30, 0.822);
+  transform: translateY(-5px);
+  color: #fffcfc;
+}
+
+.verificar .buttons .desligar{
+  margin-right: 20%;
+  scale: 1.5;
+  border-radius: 7px;
+  border: 1px solid black;
+  transition: ease 1s;
+}
+
+.verificar .buttons .desligar:hover{
+  background-color: rgba(185, 14, 14, 0.822);
+  transform: translateY(-5px);
+  color: #fffcfc;
+}
+
+
+.titulo-3 div {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  height: 40%;
+  width: 88%;
+  margin: 0;
+  top: 55%;
+  left: 7%;
+  border: 2px solid rgba(146, 143, 143, 0.301);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.titulo-3 div p {
+  margin-left: 15px;
+}
